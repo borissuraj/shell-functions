@@ -2,6 +2,6 @@
 
 cmkdir () {
     # make and change directory
-    mkdir $1 && cd $_
+    mkdir "$1" && cd "$_" || exit
 }
 
