@@ -1,0 +1,7 @@
+#!/bin/false
+
+cmkdir () {
+    # make and change directory
+    mkdir $1 && cd $_
+}
+
